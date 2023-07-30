@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+.featureCard:hover .featureCardIcon{
+    background-image: linear-gradient(30.55deg, #6ac7ff 11.05%, #148aff 90.09%);
+    box-shadow: 10px 12px 22px rgb(202 202 202 /25%);
+}
+
+.featureCard:hover .featureimg{
+    opacity: 1;
+}
+
+.featureCard:hover .featureCardSVG {
+    filter: drop-shadow(0px 2px 22px rgba(202, 202, 202, 0.25));
+    stroke-opacity: 0 !important;
+}
+
+.featureCard2:hover .featureCardSVG2{
+    filter: drop-shadow(0px 2px 22px rgba(2,20,16, 0.55));
+    stroke-opacity: 0 !important;
+}
+
+.featureCard2:hover .featureCardIcon2{
+    background: rgb(2,0,36);
+    background: linear-gradient(50deg, rgba(2,0,36,1) 0%, rgba(22,14,124,1) 0%, rgba(8,10,172,1) 33%, rgba(20,138,255,1) 84%);
+}
+
+.featureCard2:hover .featureimg2{
+    opacity: 1;
+}
+
+.coreFeaturesBg{
+    background-size: 100% 100%;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.coreh3, .coreimg, .corepara{
+    margin: 5% auto;
+}
+
+.moveimg{
+    animation: 10s infinite linear movecompany;
+}
+
+@keyframes movecompany {
+    0%{
+        top: 0;
+    }
+
+    100%{
+        top: -50%;
+    }   
+}
+
+.CTAsection{
+    background-size: 100% 100%;
+}
